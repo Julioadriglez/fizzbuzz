@@ -1,0 +1,20 @@
+[
+    {
+        "name": "explorer1",
+        "githubUsername": "ajolonauta1",
+        "score": 1,
+        "mission": "node"
+    },
+    {
+        "name": "explorer2",
+        "githubUsername": "ajolonauta2",
+        "score": 2,
+        "mission": "java"
+    },
+    {
+        "name": "explorer3",
+        "githubUsername": "ajolonauta3"
+        ,"score": 3,
+        "mission": "node"
+    }
+    ]
