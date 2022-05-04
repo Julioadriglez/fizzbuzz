@@ -10,8 +10,9 @@ describe("Pruebasa en ExplorerServices", () => {
     });
     test("2. Comparar si regresa lo sexplorers son de node",() => {
         const explorers = Reader.readJsonFile("explorers.json")
-        const explorersByMission = explorers.filter((explorer) => explorer.mission === 'node')
-        const usernamesInNode = explorersByMission.map ((explorer) => explorer.mission)
-        expect(usernamesInNode).toContain('mode')
+        const usernamesInNode = ExplorerServices.filterByMission(explorers, "node")
+        expect(usernamesInNode[0].mission).toBe('node')
+        expect(usernamesInNode[4].mission).toBe('node')
+        expect(usernamesInNode[9].mission).toBe('node')
     })
 })
