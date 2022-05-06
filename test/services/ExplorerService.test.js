@@ -2,7 +2,7 @@
 const Reader= require('./../../lib/utils/Reader')
 const ExplorerServices = require('./../../lib/services/ExplorerServices')
 
-describe("Pruebasa en ExplorerServices", () => {
+describe("Pruebasa en ExplorerServices y Reader", () => {
     test("1. prueba de reader", () => {
         const explorers = Reader.readJsonFile("explorers.json");
         expect(explorers).not.toBeUndefined();
