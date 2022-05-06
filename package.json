@@ -8,7 +8,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "linter": "node ./node_modules/eslint/bin/eslint.js .",
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,8 @@
   "homepage": "https://github.com/Julioadriglez/fizzbuzz#readme",
   "dependencies": {
     "jest": "^26.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0"
   }
 }
