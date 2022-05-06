@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Julioadriglez/fizzbuzz#readme",
   "dependencies": {
+    "expless": "^0.1.91",
     "jest": "^26.0.0"
   },
   "devDependencies": {
