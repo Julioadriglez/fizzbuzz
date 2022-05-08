@@ -31,5 +31,5 @@ describe("Puevas de unidad para FizzbuzzServices", () => {
         expect(trick1).toBe(1);
         expect(trick2).toBe("FIZZ");
         expect(trick3).toBe("BUZZ");
-        expect(trick4).toBe("FIZZBUZZ");})
+        expect(trick4).toBe("FIZZBUZZ");});
 });
