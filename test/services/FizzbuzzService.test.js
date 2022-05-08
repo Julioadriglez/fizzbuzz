@@ -1,5 +1,4 @@
 const FizzbuzzService= require("./../../lib/services/FizzbuzzService");
-const fs = require("fs");
 
 describe("Puevas de unidad para FizzbuzzServices", () => {
     test("1. Prueba no divisible entre 3 y 5", () => {
