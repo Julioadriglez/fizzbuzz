@@ -21,5 +21,15 @@ describe("Puevas de unidad para FizzbuzzServices", () => {
         const explorerscore = FizzbuzzService.applyValidationInExplorer(explorer15);
         expect(explorerscore.trick).toBe("FIZZBUZZ");
     });
-
+    test("5.prueba de fizzbuzz con number", () => {
+        const score = [1, 3, 5, 15];
+      
+        const trick1 = FizzbuzzService.applyValidationInNumber(score[0]);
+        const trick2 = FizzbuzzService.applyValidationInNumber(score[1]);
+        const trick3 = FizzbuzzService.applyValidationInNumber(score[2]);
+        const trick4 = FizzbuzzService.applyValidationInNumber(score[3]);
+        expect(trick1).toBe(1);
+        expect(trick2).toBe("FIZZ");
+        expect(trick3).toBe("BUZZ");
+        expect(trick4).toBe("FIZZBUZZ");})
 });
